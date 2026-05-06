@@ -51,7 +51,7 @@ These files are generated after running the notebooks:
 
 ## Analysis Procedures
 ### Check the present repurchase rate by SQL query
-![repurchase_rate_sql](reports/sql_repurchase_rate.png)
+![repurchase_rate_sql](reports/repurchase_rate_sql.png)
 The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
@@ -63,11 +63,11 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 ### Find out the shipping distance of orders using Python (Matplotlib, Pandas) and show the result in Power BI
 - Data Manipulation: https://colab.research.google.com/drive/1TM_L7MW8UEdJCxUrHS76fPLYsLFGHHAu
 - Matplotlib is used to draw a line between acceptable and far distance to demonstrate at which distance level goods need to be delivered between two states.
-![distance_category_bar_chart](reports/distance_categories.png)
+![distance_category_bar_chart](reports/distance_category_bar_chart.png)
   - Note: 0 and 1 represent 'order shipping across states' and 'order shipping within a state'
   - It shows most orders are shipped across states when the shipping distance is at 500 km. Thus, within 500 km will be treated as acceptable distance, more than 500 km as too far.
 - To show the insight of distance, pandas' DataFrame of distance is imported to Power BI and The distance 
-![distance_category_map](reports/distance_categories_map.png)
+![distance_category_map](reports/distance_category_map.png)
   - Note: Orders with distances greater than or equal to 500 km are represented with blue color (light to dark shade); distances between 500 and 1000 km are represented with pink; distances between 1000 and 2000 km are represented with purple; distances over 2000 km are represented with red.
   - The graph shows that São Paulo State is a central point from which orders gradually expand outward, and transportation distance increases as orders move farther away from this province.
   - The orders with the farthest distances are concentrated in the coastal regions in the upper right corner.
