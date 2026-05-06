@@ -15,7 +15,7 @@ Olist is an online retailer in Brazil that provides an open-source dataset conta
 
 ## Analysis Procedures
 ### Check the present repurchase rate by SQL query
-![repurchase_rate_sql](reports/repurchase_sql.png)
+![repurchase_rate_sql](reports/repurchase_rate_sql.png)
 The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
