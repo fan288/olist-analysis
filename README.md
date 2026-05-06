@@ -8,14 +8,14 @@ Olist is an online retailer in Brazil that provides an open-source dataset conta
 - Used Tools: Python (Pandas, Matplotlib, Numpy, NLTK), PostgreSQL, Power BI
 
 ## Relational Database in PostgreSQL
-![olist_database](https://github.com/Fan287/olist_analysis/assets/148685693/0f2cab0e-e9f9-4fed-be98-9ec314b2e764)
+![database](reports/database.png)
 
 ## Dashboard in Power BI
-![dashboard](https://github.com/Fan287/olist_analysis/assets/148685693/2badaaf8-7a5f-4142-a5b7-91aa698cc693)
+![dashboard](reports/dashboard.png)
 
 ## Analysis Procedures
 ### Check the present repurchase rate by SQL query
-![olist_repurchase_rate_sql](https://github.com/Fan287/olist_analysis/assets/148685693/d5205689-619a-4471-8834-372bb4fd677d)
+![repurchase_rate_sql](reports/repurchase_sql.png)
 The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
@@ -27,11 +27,11 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 ### Find out the shipping distance of orders using Python (Matplotlib, Pandas) and show the result in Power BI
 - Data Manipulation: https://colab.research.google.com/drive/1TM_L7MW8UEdJCxUrHS76fPLYsLFGHHAu
 - Matplotlib is used to draw a line between acceptable and far distance to demonstrate at which distance level goods need to be delivered between two states.
-![distance_categories_state](https://github.com/Fan287/olist_analysis/assets/148685693/47d2899d-56f8-4165-b970-e4025bedcbad)
+![distance_category_bar_chart](reports/distance_category_bar_chart.png)
   - Note: 0 and 1 represent 'order shipping across states' and 'order shipping within a state'
   - It shows most orders are shipped across states when the shipping distance is at 500 km. Thus, within 500 km will be treated as acceptable distance, more than 500 km as too far.
 - To show the insight of distance, pandas' DataFrame of distance is imported to Power BI and The distance 
-![order_distance](https://github.com/Fan287/olist_analysis/assets/148685693/abf6b6ac-1ce5-4824-ae86-7626815ff956)
+![distance_category_map](reports/distance_category_map.png)
   - Note: Orders with distances greater than or equal to 500 km are represented with blue color (light to dark shade); distances between 500 and 1000 km are represented with pink; distances between 1000 and 2000 km are represented with purple; distances over 2000 km are represented with red.
   - The graph shows that São Paulo State is a central point from which orders gradually expand outward, and transportation distance increases as orders move farther away from this province.
   - The orders with the farthest distances are concentrated in the coastal regions in the upper right corner.
@@ -39,7 +39,7 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 
 ### To validate the insight, find out the customer-to-seller ratio in each state
 - Data Manipulation: https://colab.research.google.com/drive/1-W43e9BhS9z20lzE6MomaZuADmQLLw7R#scrollTo=sIZpexocaY6L
-![cust_sell_ratio](https://github.com/Fan287/olist_analysis/assets/148685693/53e120a6-912d-4f97-b22c-78aaf6c7a41d)
+![customer_seller_ratio](reports/customer_seller_ratio.png)
   - Note: The color of states is correspond to the graph of shipping distance. Blue is 1 seller: less than 100 customers; purple is between 100 to 200; red is between 200 to 4000.
   - The graph aligns with the graph of shipping distance. Blue areas are concentrated in the lower right corner, while other areas are either purple or red, indicating an unfavorable customers-to-sellers ratio.
   - In conclusion, the orders have long shipping distances because some states have too few sellers to meet local state demand.  
@@ -48,7 +48,7 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 - The Recommendations: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
   - recommendation of specfic product catgories in states with priority:
     - Data Manipulation: https://colab.research.google.com/drive/1EhHwfQQAdkMYV-zB6C2T9HipXWF-vrBP
-   ![product_recom_table](https://github.com/Fan287/olist_analysis/assets/148685693/e8867cb9-820a-43f6-bb59-5e0d6a930706)
+   ![recommendation_sheet](reports/recommendation_sheet.png)
     - The suggested ranking is based on a comparison of the sellers' ratios in each state. States with lower seller ratios are prioritized in the ranking.
     - As for the product recommendations, it involves calculating the difference between the number of items sold and purchased for each product category in each state. The top five product categories with the largest differences are then ranked in descending order
   - To persuade sellers, Olist can set up its own warehouses and sell the suggested products in these states for a period of six months. Olist should gather data during this period to demonstrate the profitability of such a business approach. Sellers would be more incentivized to join the plan when they see the potential for profit
