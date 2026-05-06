@@ -1,10 +1,10 @@
 # Brazil E-commerce Olist Business Analysis
 
 ## Introduction
-Olist is an online retailer in Brazil that provides an open-source dataset containing information on up to 100,000 orders made on their platform. The dataset can be accessed and downloaded from this Google Drive link: https://drive.google.com/file/d/1bLwp3KmwvQHB2ucquErlkayI8yCEvmO9/view. The objective of this analysis is to enhance Olist's business performance, particularly in terms of the Repurchase Rate, by thoroughly exploring the dataset and providing actionable recommendations.
+Olist is an online retailer in Brazil that provides an open-source dataset containing information on up to 100,000 orders made on their platform. The objective of this analysis is to enhance Olist's business performance, particularly in terms of the Repurchase Rate, by thoroughly exploring the dataset and providing actionable recommendations.
 
 ## Data Sources and Used Tools
-- Data Sources: Brazilian E-Commerce Public Dataset by Olist
+- Data Sources: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - Used Tools: Python (Pandas, Matplotlib, Numpy, NLTK), PostgreSQL, Power BI
 
 ## Local Setup
@@ -55,13 +55,13 @@ These files are generated after running the notebooks:
 The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
-- Data Manipulation: https://colab.research.google.com/drive/1UtqGCFd1Bl-eoI1k0TDz1BfGreERluwN#scrollTo=DrH9oBRMzwmE
+- Data Manipulation: `notebooks/nltk_comments.ipynb` ([Colab reference](https://colab.research.google.com/drive/1UtqGCFd1Bl-eoI1k0TDz1BfGreERluwN#scrollTo=DrH9oBRMzwmE))
 - NLTK is used to tokenize over 40,000 customers' comments and filter out the stop words. And it provides a list of frequency of meaningful words. The top ten of the list:
   -  ('product', 15871), ('delivery', 5316), ('arrived', 4937), ('time', 4845), ('good', 4452), ('recommend', 4422), ('received', 4403), ('delivered', 4268), ('deadline', 3075), ('came', 2824)
 - Mainly, customers emphasized two things, the product quality and delivery. Since the dataset did not provide enough data for analysing product quality, this will not be the focus in this analysis. The focus will be studying the delivery, especially the shipping distance.
 
 ### Find out the shipping distance of orders using Python (Matplotlib, Pandas) and show the result in Power BI
-- Data Manipulation: https://colab.research.google.com/drive/1TM_L7MW8UEdJCxUrHS76fPLYsLFGHHAu
+- Data Manipulation: `notebooks/generate_customer_seller_geolocation.ipynb` ([Colab reference](https://colab.research.google.com/drive/1TM_L7MW8UEdJCxUrHS76fPLYsLFGHHAu))
 - Matplotlib is used to draw a line between acceptable and far distance to demonstrate at which distance level goods need to be delivered between two states.
 ![distance_category_bar_chart](reports/distance_category_bar_chart.png)
   - Note: 0 and 1 represent 'order shipping across states' and 'order shipping within a state'
@@ -74,7 +74,7 @@ The result shows that the repurchase rate is approximately 3%, which is signific
   - This insight suggests that most sellers are located in São Paulo State, while other states have an undesirable sellers-to-customer ratio.
 
 ### To validate the insight, find out the customer-to-seller ratio in each state
-- Data Manipulation: https://colab.research.google.com/drive/1-W43e9BhS9z20lzE6MomaZuADmQLLw7R#scrollTo=sIZpexocaY6L
+- Data Manipulation: `notebooks/customer_seller_ratio.ipynb` ([Colab reference](https://colab.research.google.com/drive/1-W43e9BhS9z20lzE6MomaZuADmQLLw7R#scrollTo=sIZpexocaY6L))
 ![customer_seller_ratio](reports/customer_seller_ratio.png)
   - Note: The color of states is correspond to the graph of shipping distance. Blue is 1 seller: less than 100 customers; purple is between 100 to 200; red is between 200 to 4000.
   - The graph aligns with the graph of shipping distance. Blue areas are concentrated in the lower right corner, while other areas are either purple or red, indicating an unfavorable customers-to-sellers ratio.
@@ -83,7 +83,7 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 ## Recommendations to Olist
 - The Recommendations: Encourage more sellers to set up warehouses and store specific product categories in specific states.
   - Recommendation of specific product categories in states with priority:
-    - Data Manipulation: https://colab.research.google.com/drive/1EhHwfQQAdkMYV-zB6C2T9HipXWF-vrBP
+    - Data Manipulation: `notebooks/states_demand_supply.ipynb` ([Colab reference](https://colab.research.google.com/drive/1EhHwfQQAdkMYV-zB6C2T9HipXWF-vrBP))
    ![recommendation_sheet](reports/recommendation_sheet.png)
     - The suggested ranking is based on a comparison of the sellers' ratios in each state. States with lower seller ratios are prioritized in the ranking.
     - As for the product recommendations, it involves calculating the difference between the number of items sold and purchased for each product category in each state. The top five product categories with the largest differences are then ranked in descending order
