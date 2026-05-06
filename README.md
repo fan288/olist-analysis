@@ -4,7 +4,7 @@
 Olist is an online retailer in Brazil that provides an open-source dataset containing information on up to 100,000 orders made on their platform. The dataset can be accessed and downloaded from this Google Drive link: https://drive.google.com/file/d/1bLwp3KmwvQHB2ucquErlkayI8yCEvmO9/view. The objective of this analysis is to enhance Olist's business performance, particularly in terms of the Repurchase Rate, by thoroughly exploring the dataset and providing actionable recommendations.
 
 ## Data Sources and Used Tools
-- Data Sources: Public Datasets from Olist
+- Data Sources: Brazilian E-Commerce Public Dataset by Olist
 - Used Tools: Python (Pandas, Matplotlib, Numpy, NLTK), PostgreSQL, Power BI
 
 ## Relational Database in PostgreSQL
