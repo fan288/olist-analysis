@@ -1,0 +1,28 @@
+state_brief,cust_state_fre,seller_state_fre,state_full_name,customer_seller_ratio,seller_customer_ratio
+AC,81,1.0,Acre,81.0,0.012
+AL,413,0.1,Alagoas,4130.0,0.0
+AM,148,1.0,Amazonas,148.0,0.007
+AP,68,0.1,Amapá,680.0,0.001
+BA,3380,19.0,Bahia,177.895,0.006
+CE,1336,13.0,Ceará,102.769,0.01
+DF,2140,30.0,Distrito Federal,71.333,0.014
+ES,2033,23.0,Espírito Santo,88.391,0.011
+GO,2020,40.0,Goiás,50.5,0.02
+MA,747,1.0,Maranhão,747.0,0.001
+MG,11635,244.0,Minas Gerais,47.684,0.021
+MS,715,5.0,Mato Grosso do Sul,143.0,0.007
+MT,907,4.0,Mato Grosso,226.75,0.004
+PA,975,1.0,Pará,975.0,0.001
+PB,536,6.0,Paraíba,89.333,0.011
+PE,1652,9.0,Pernambuco,183.556,0.005
+PI,495,1.0,Piauí,495.0,0.002
+PR,5045,349.0,Paraná,14.456,0.069
+RJ,12852,171.0,Rio de Janeiro,75.158,0.013
+RN,485,5.0,Rio Grande do Norte,97.0,0.01
+RO,253,2.0,Rondônia,126.5,0.008
+RR,46,0.1,Roraima,460.0,0.002
+RS,5466,129.0,Rio Grande do Sul,42.372,0.024
+SC,3637,190.0,Santa Catarina,19.142,0.052
+SE,350,2.0,Sergipe,175.0,0.006
+SP,41746,1849.0,São Paulo,22.578,0.044
+TO,280,0.1,Tocantins,2800.0,0.0

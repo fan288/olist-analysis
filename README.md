@@ -7,6 +7,42 @@ Olist is an online retailer in Brazil that provides an open-source dataset conta
 - Data Sources: Brazilian E-Commerce Public Dataset by Olist
 - Used Tools: Python (Pandas, Matplotlib, Numpy, NLTK), PostgreSQL, Power BI
 
+## Local Setup
+1. Create and activate a virtual environment:
+   - `python3 -m venv venv`
+   - `source venv/bin/activate` (macOS/Linux) or `venv\\Scripts\\activate` (Windows)
+2. Install dependencies:
+   - `pip install -r requirements.txt`
+3. Open notebooks in `notebooks/` and run cells from top to bottom.
+
+## Project Structure
+```text
+olist-analysis/
+├── data/
+│   ├── raw/                  # source datasets (ignored in git)
+│   └── processed/            # generated outputs (tracked)
+├── notebooks/
+│   ├── customer_seller_ratio.ipynb
+│   ├── states_demand_supply.ipynb
+│   ├── generate_customer_seller_geolocation.ipynb
+│   └── nltk_comments.ipynb
+├── reports/                  # final images and BI assets
+├── requirements.txt
+└── README.md
+```
+
+## Recommended Run Order
+1. `notebooks/generate_customer_seller_geolocation.ipynb`
+2. `notebooks/customer_seller_ratio.ipynb`
+3. `notebooks/states_demand_supply.ipynb`
+4. `notebooks/nltk_comments.ipynb` (text analysis only)
+
+## Output Files (`data/processed/*.csv`)
+These files are generated after running the notebooks:
+- `data/processed/order_geolocation_2.csv` from `generate_customer_seller_geolocation.ipynb`
+- `data/processed/customer_seller_ratio.csv` from `customer_seller_ratio.ipynb`
+- `data/processed/recommend_sales_gap_5.csv` from `states_demand_supply.ipynb`
+
 ## Relational Database in PostgreSQL
 ![database](reports/database.png)
 
@@ -15,7 +51,7 @@ Olist is an online retailer in Brazil that provides an open-source dataset conta
 
 ## Analysis Procedures
 ### Check the present repurchase rate by SQL query
-![repurchase_rate_sql](reports/repurchase_rate_sql.png)
+![repurchase_rate_sql](reports/sql_repurchase_rate.png)
 The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
@@ -27,11 +63,11 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 ### Find out the shipping distance of orders using Python (Matplotlib, Pandas) and show the result in Power BI
 - Data Manipulation: https://colab.research.google.com/drive/1TM_L7MW8UEdJCxUrHS76fPLYsLFGHHAu
 - Matplotlib is used to draw a line between acceptable and far distance to demonstrate at which distance level goods need to be delivered between two states.
-![distance_category_bar_chart](reports/distance_category_bar_chart.png)
+![distance_category_bar_chart](reports/distance_categories.png)
   - Note: 0 and 1 represent 'order shipping across states' and 'order shipping within a state'
   - It shows most orders are shipped across states when the shipping distance is at 500 km. Thus, within 500 km will be treated as acceptable distance, more than 500 km as too far.
 - To show the insight of distance, pandas' DataFrame of distance is imported to Power BI and The distance 
-![distance_category_map](reports/distance_category_map.png)
+![distance_category_map](reports/distance_categories_map.png)
   - Note: Orders with distances greater than or equal to 500 km are represented with blue color (light to dark shade); distances between 500 and 1000 km are represented with pink; distances between 1000 and 2000 km are represented with purple; distances over 2000 km are represented with red.
   - The graph shows that São Paulo State is a central point from which orders gradually expand outward, and transportation distance increases as orders move farther away from this province.
   - The orders with the farthest distances are concentrated in the coastal regions in the upper right corner.
@@ -45,8 +81,8 @@ The result shows that the repurchase rate is approximately 3%, which is signific
   - In conclusion, the orders have long shipping distances because some states have too few sellers to meet local state demand.  
 
 ## Recommendations to Olist
-- The Recommendations: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
-  - recommendation of specfic product catgories in states with priority:
+- The Recommendations: Encourage more sellers to set up warehouses and store specific product categories in specific states.
+  - Recommendation of specific product categories in states with priority:
     - Data Manipulation: https://colab.research.google.com/drive/1EhHwfQQAdkMYV-zB6C2T9HipXWF-vrBP
    ![recommendation_sheet](reports/recommendation_sheet.png)
     - The suggested ranking is based on a comparison of the sellers' ratios in each state. States with lower seller ratios are prioritized in the ranking.

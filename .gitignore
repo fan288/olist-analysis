@@ -1,11 +1,10 @@
 data/raw/
-data/processed/
-*.csv
 *.zip
 
 __pycache__/
 *.pyc
 
+.venv/
 venv/
 env/
 

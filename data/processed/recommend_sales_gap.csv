@@ -1,0 +1,1379 @@
+product_category_name,state,demand_freq,supply_freq,sale_gap,sale_gap_abs
+Art,AM,1,0,1,1
+Art,AP,2,0,2,2
+Art,BA,10,0,10,10
+Art,DF,5,1,4,4
+Art,ES,1,0,1,1
+Art,GO,4,1,3,3
+Art,MG,18,10,8,8
+Art,MS,1,0,1,1
+Art,MT,1,0,1,1
+Art,PA,2,0,2,2
+Art,PB,1,0,1,1
+Art,PE,1,0,1,1
+Art,PI,1,0,1,1
+Art,PR,8,4,4,4
+Art,RJ,32,6,26,26
+Art,RN,1,0,1,1
+Art,RO,2,0,2,2
+Art,RS,9,1,8,8
+Art,SC,6,14,-8,8
+Art,SP,92,161,-69,69
+Christmas articles,AC,1,0,1,1
+Christmas articles,BA,8,0,8,8
+Christmas articles,CE,2,0,2,2
+Christmas articles,DF,5,0,5,5
+Christmas articles,ES,2,0,2,2
+Christmas articles,GO,3,0,3,3
+Christmas articles,MA,1,0,1,1
+Christmas articles,MG,18,17,1,1
+Christmas articles,MS,1,0,1,1
+Christmas articles,MT,1,0,1,1
+Christmas articles,PA,1,0,1,1
+Christmas articles,PE,4,0,4,4
+Christmas articles,PR,6,9,-3,3
+Christmas articles,RJ,12,7,5,5
+Christmas articles,RN,1,0,1,1
+Christmas articles,RO,2,0,2,2
+Christmas articles,RS,5,0,5,5
+Christmas articles,SC,11,6,5,5
+Christmas articles,SP,44,89,-45,45
+agro_industria_e_comercio,AL,1,0,1,1
+agro_industria_e_comercio,AP,1,0,1,1
+agro_industria_e_comercio,BA,3,0,3,3
+agro_industria_e_comercio,CE,2,1,1,1
+agro_industria_e_comercio,ES,2,0,2,2
+agro_industria_e_comercio,GO,6,0,6,6
+agro_industria_e_comercio,MA,1,0,1,1
+agro_industria_e_comercio,MG,14,3,11,11
+agro_industria_e_comercio,MS,3,0,3,3
+agro_industria_e_comercio,MT,2,0,2,2
+agro_industria_e_comercio,PA,2,0,2,2
+agro_industria_e_comercio,PB,2,0,2,2
+agro_industria_e_comercio,PE,5,0,5,5
+agro_industria_e_comercio,PI,3,0,3,3
+agro_industria_e_comercio,PR,12,73,-61,61
+agro_industria_e_comercio,RJ,25,2,23,23
+agro_industria_e_comercio,RO,1,0,1,1
+agro_industria_e_comercio,RS,9,13,-4,4
+agro_industria_e_comercio,SC,3,1,2,2
+agro_industria_e_comercio,SP,85,89,-4,4
+air conditioning,AL,1,0,1,1
+air conditioning,AM,1,0,1,1
+air conditioning,BA,6,0,6,6
+air conditioning,CE,2,0,2,2
+air conditioning,DF,3,7,-4,4
+air conditioning,ES,6,3,3,3
+air conditioning,GO,6,0,6,6
+air conditioning,MA,1,0,1,1
+air conditioning,MG,18,35,-17,17
+air conditioning,MT,3,0,3,3
+air conditioning,PB,1,0,1,1
+air conditioning,PE,2,0,2,2
+air conditioning,PI,3,0,3,3
+air conditioning,PR,10,35,-25,25
+air conditioning,RJ,59,21,38,38
+air conditioning,RS,12,6,6,6
+air conditioning,SC,1,8,-7,7
+air conditioning,SP,117,136,-19,19
+appliances_2,AL,2,0,2,2
+appliances_2,AM,1,0,1,1
+appliances_2,BA,6,0,6,6
+appliances_2,CE,3,0,3,3
+appliances_2,DF,5,3,2,2
+appliances_2,ES,3,0,3,3
+appliances_2,GO,3,0,3,3
+appliances_2,MG,20,20,0,0
+appliances_2,MS,3,0,3,3
+appliances_2,MT,3,0,3,3
+appliances_2,PE,2,0,2,2
+appliances_2,PI,1,0,1,1
+appliances_2,PR,14,19,-5,5
+appliances_2,RJ,45,38,7,7
+appliances_2,RN,2,0,2,2
+appliances_2,RS,12,9,3,3
+appliances_2,SC,17,47,-30,30
+appliances_2,SE,1,0,1,1
+appliances_2,SP,87,97,-10,10
+appliances_2,TO,3,0,3,3
+arts_and_crafts,DF,1,0,1,1
+arts_and_crafts,MG,5,1,4,4
+arts_and_crafts,SC,1,1,0,0
+arts_and_crafts,SP,15,19,-4,4
+audio,AL,5,0,5,5
+audio,AM,1,0,1,1
+audio,BA,14,0,14,14
+audio,CE,5,0,5,5
+audio,DF,16,9,7,7
+audio,ES,13,0,13,13
+audio,GO,6,2,4,4
+audio,MA,3,0,3,3
+audio,MG,33,1,32,32
+audio,MS,1,0,1,1
+audio,MT,4,0,4,4
+audio,PA,1,0,1,1
+audio,PB,1,0,1,1
+audio,PE,4,1,3,3
+audio,PI,4,0,4,4
+audio,PR,16,3,13,13
+audio,RJ,54,0,54,54
+audio,RN,1,0,1,1
+audio,RS,16,0,16,16
+audio,SC,9,1,8,8
+audio,SP,138,329,-191,191
+audio,TO,1,0,1,1
+automotive,AC,4,0,4,4
+automotive,AL,21,0,21,21
+automotive,AM,4,0,4,4
+automotive,AP,3,0,3,3
+automotive,BA,148,0,148,148
+automotive,CE,54,5,49,49
+automotive,DF,104,8,96,96
+automotive,ES,82,3,79,79
+automotive,GO,74,30,44,44
+automotive,MA,38,0,38,38
+automotive,MG,470,240,230,230
+automotive,MS,24,20,4,4
+automotive,MT,51,0,51,51
+automotive,PA,44,0,44,44
+automotive,PB,22,0,22,22
+automotive,PE,82,14,68,68
+automotive,PI,28,12,16,16
+automotive,PR,208,133,75,75
+automotive,RJ,411,101,310,310
+automotive,RN,17,2,15,15
+automotive,RO,10,13,-3,3
+automotive,RR,1,0,1,1
+automotive,RS,176,57,119,119
+automotive,SC,161,170,-9,9
+automotive,SE,20,0,20,20
+automotive,SP,1607,3072,-1465,1465
+automotive,TO,16,0,16,16
+babies,AC,3,0,3,3
+babies,AL,7,0,7,7
+babies,AM,5,0,5,5
+babies,BA,94,5,89,89
+babies,CE,30,7,23,23
+babies,DF,65,7,58,58
+babies,ES,60,0,60,60
+babies,GO,53,29,24,24
+babies,MA,27,0,27,27
+babies,MG,338,193,145,145
+babies,MS,27,0,27,27
+babies,MT,33,29,4,4
+babies,PA,41,0,41,41
+babies,PB,13,0,13,13
+babies,PE,41,0,41,41
+babies,PI,11,0,11,11
+babies,PR,151,264,-113,113
+babies,RJ,341,81,260,260
+babies,RN,15,0,15,15
+babies,RO,10,0,10,10
+babies,RR,2,0,2,2
+babies,RS,200,67,133,133
+babies,SC,96,156,-60,60
+babies,SE,8,0,8,8
+babies,SP,1161,2001,-840,840
+babies,TO,7,0,7,7
+bags_accessories,AC,2,0,2,2
+bags_accessories,AL,5,0,5,5
+bags_accessories,AM,2,0,2,2
+bags_accessories,BA,32,0,32,32
+bags_accessories,CE,20,0,20,20
+bags_accessories,DF,23,2,21,21
+bags_accessories,ES,15,0,15,15
+bags_accessories,GO,12,21,-9,9
+bags_accessories,MA,8,0,8,8
+bags_accessories,MG,171,400,-229,229
+bags_accessories,MS,9,0,9,9
+bags_accessories,MT,8,0,8,8
+bags_accessories,PA,7,0,7,7
+bags_accessories,PB,7,0,7,7
+bags_accessories,PE,13,0,13,13
+bags_accessories,PI,5,0,5,5
+bags_accessories,PR,49,68,-19,19
+bags_accessories,RJ,117,18,99,99
+bags_accessories,RN,1,0,1,1
+bags_accessories,RO,6,0,6,6
+bags_accessories,RS,54,33,21,21
+bags_accessories,SC,35,15,20,20
+bags_accessories,SE,3,0,3,3
+bags_accessories,SP,417,466,-49,49
+bags_accessories,TO,2,0,2,2
+beauty_health,AC,6,0,6,6
+beauty_health,AL,63,0,63,63
+beauty_health,AM,15,0,15,15
+beauty_health,AP,10,0,10,10
+beauty_health,BA,328,13,315,315
+beauty_health,CE,156,30,126,126
+beauty_health,DF,223,134,89,89
+beauty_health,ES,152,4,148,148
+beauty_health,GO,207,27,180,180
+beauty_health,MA,83,391,-308,308
+beauty_health,MG,1007,370,637,637
+beauty_health,MS,57,19,38,38
+beauty_health,MT,84,43,41,41
+beauty_health,PA,101,0,101,101
+beauty_health,PB,77,0,77,77
+beauty_health,PE,225,3,222,222
+beauty_health,PI,51,0,51,51
+beauty_health,PR,381,615,-234,234
+beauty_health,RJ,970,971,-1,1
+beauty_health,RN,57,1,56,56
+beauty_health,RO,23,0,23,23
+beauty_health,RR,6,0,6,6
+beauty_health,RS,394,133,261,261
+beauty_health,SC,287,257,30,30
+beauty_health,SE,40,0,40,40
+beauty_health,SP,3764,5785,-2021,2021
+beauty_health,TO,29,0,29,29
+bed table bath,AC,3,0,3,3
+bed table bath,AL,19,0,19,19
+bed table bath,AM,7,0,7,7
+bed table bath,AP,3,0,3,3
+bed table bath,BA,220,0,220,220
+bed table bath,CE,68,1,67,67
+bed table bath,DF,169,34,135,135
+bed table bath,ES,198,0,198,198
+bed table bath,GO,189,19,170,170
+bed table bath,MA,32,0,32,32
+bed table bath,MG,1117,295,822,822
+bed table bath,MS,57,0,57,57
+bed table bath,MT,56,0,56,56
+bed table bath,PA,34,0,34,34
+bed table bath,PB,29,7,22,22
+bed table bath,PE,81,0,81,81
+bed table bath,PI,24,0,24,24
+bed table bath,PR,398,109,289,289
+bed table bath,RJ,1377,105,1272,1272
+bed table bath,RN,23,0,23,23
+bed table bath,RO,14,0,14,14
+bed table bath,RR,2,0,2,2
+bed table bath,RS,532,44,488,488
+bed table bath,SC,270,475,-205,205
+bed table bath,SE,14,3,11,11
+bed table bath,SP,4366,8219,-3853,3853
+bed table bath,TO,9,0,9,9
+books_general_interest,AC,2,0,2,2
+books_general_interest,AL,1,0,1,1
+books_general_interest,AM,1,0,1,1
+books_general_interest,BA,15,0,15,15
+books_general_interest,CE,7,0,7,7
+books_general_interest,DF,17,5,12,12
+books_general_interest,ES,8,0,8,8
+books_general_interest,GO,13,0,13,13
+books_general_interest,MA,3,0,3,3
+books_general_interest,MG,50,19,31,31
+books_general_interest,MS,2,0,2,2
+books_general_interest,MT,2,0,2,2
+books_general_interest,PA,3,0,3,3
+books_general_interest,PB,3,0,3,3
+books_general_interest,PE,8,0,8,8
+books_general_interest,PI,1,0,1,1
+books_general_interest,PR,34,49,-15,15
+books_general_interest,RJ,55,67,-12,12
+books_general_interest,RN,22,20,2,2
+books_general_interest,RO,1,0,1,1
+books_general_interest,RS,28,0,28,28
+books_general_interest,SC,20,70,-50,50
+books_general_interest,SE,1,0,1,1
+books_general_interest,SP,211,279,-68,68
+books_general_interest,TO,1,0,1,1
+casa_conforto,AL,1,0,1,1
+casa_conforto,BA,9,0,9,9
+casa_conforto,CE,3,0,3,3
+casa_conforto,DF,6,0,6,6
+casa_conforto,ES,10,0,10,10
+casa_conforto,GO,7,0,7,7
+casa_conforto,MA,2,0,2,2
+casa_conforto,MG,52,20,32,32
+casa_conforto,MS,1,0,1,1
+casa_conforto,MT,3,0,3,3
+casa_conforto,PB,1,0,1,1
+casa_conforto,PE,5,1,4,4
+casa_conforto,PI,3,0,3,3
+casa_conforto,PR,12,4,8,8
+casa_conforto,RJ,52,0,52,52
+casa_conforto,RN,1,0,1,1
+casa_conforto,RO,1,0,1,1
+casa_conforto,RS,17,0,17,17
+casa_conforto,SC,12,2,10,10
+casa_conforto,SE,1,0,1,1
+casa_conforto,SP,175,348,-173,173
+casa_conforto,TO,1,0,1,1
+casa_conforto_2,BA,1,0,1,1
+casa_conforto_2,ES,1,0,1,1
+casa_conforto_2,GO,4,0,4,4
+casa_conforto_2,MG,2,0,2,2
+casa_conforto_2,PR,1,0,1,1
+casa_conforto_2,RJ,2,0,2,2
+casa_conforto_2,RS,1,0,1,1
+casa_conforto_2,SP,10,22,-12,12
+cds_musical_dvds,MA,1,0,1,1
+cds_musical_dvds,RJ,2,0,2,2
+cds_musical_dvds,RS,3,0,3,3
+cds_musical_dvds,SP,6,12,-6,6
+cine_foto,BA,3,0,3,3
+cine_foto,DF,1,5,-4,4
+cine_foto,ES,1,0,1,1
+cine_foto,GO,1,0,1,1
+cine_foto,MA,1,0,1,1
+cine_foto,MG,6,1,5,5
+cine_foto,MT,1,0,1,1
+cine_foto,PA,2,0,2,2
+cine_foto,PE,1,0,1,1
+cine_foto,PR,2,9,-7,7
+cine_foto,RJ,5,0,5,5
+cine_foto,RS,9,0,9,9
+cine_foto,SC,4,7,-3,3
+cine_foto,SP,28,43,-15,15
+consoles_games,AC,1,0,1,1
+consoles_games,AL,7,0,7,7
+consoles_games,AM,2,0,2,2
+consoles_games,AP,1,0,1,1
+consoles_games,BA,33,0,33,33
+consoles_games,CE,16,0,16,16
+consoles_games,DF,28,6,22,22
+consoles_games,ES,22,3,19,19
+consoles_games,GO,21,4,17,17
+consoles_games,MA,6,0,6,6
+consoles_games,MG,121,215,-94,94
+consoles_games,MS,6,0,6,6
+consoles_games,MT,9,0,9,9
+consoles_games,PA,14,0,14,14
+consoles_games,PB,7,0,7,7
+consoles_games,PE,20,15,5,5
+consoles_games,PI,7,0,7,7
+consoles_games,PR,40,147,-107,107
+consoles_games,RJ,130,9,121,121
+consoles_games,RN,6,0,6,6
+consoles_games,RO,1,0,1,1
+consoles_games,RS,58,33,25,25
+consoles_games,SC,33,2,31,31
+consoles_games,SE,5,0,5,5
+consoles_games,SP,461,624,-163,163
+consoles_games,TO,3,0,3,3
+construction_security_tools,BA,7,0,7,7
+construction_security_tools,CE,4,0,4,4
+construction_security_tools,DF,3,4,-1,1
+construction_security_tools,GO,5,5,0,0
+construction_security_tools,MG,24,0,24,24
+construction_security_tools,MS,2,0,2,2
+construction_security_tools,MT,4,0,4,4
+construction_security_tools,PB,3,0,3,3
+construction_security_tools,PE,4,0,4,4
+construction_security_tools,PR,13,2,11,11
+construction_security_tools,RJ,15,0,15,15
+construction_security_tools,RN,1,0,1,1
+construction_security_tools,RO,1,0,1,1
+construction_security_tools,RS,7,32,-25,25
+construction_security_tools,SC,12,3,9,9
+construction_security_tools,SE,1,0,1,1
+construction_security_tools,SP,56,116,-60,60
+construction_tools_construction,AL,2,0,2,2
+construction_tools_construction,BA,25,0,25,25
+construction_tools_construction,CE,9,0,9,9
+construction_tools_construction,DF,10,4,6,6
+construction_tools_construction,ES,10,24,-14,14
+construction_tools_construction,GO,7,2,5,5
+construction_tools_construction,MA,1,0,1,1
+construction_tools_construction,MG,98,82,16,16
+construction_tools_construction,MS,8,0,8,8
+construction_tools_construction,MT,7,0,7,7
+construction_tools_construction,PA,2,0,2,2
+construction_tools_construction,PB,1,0,1,1
+construction_tools_construction,PE,9,0,9,9
+construction_tools_construction,PI,1,0,1,1
+construction_tools_construction,PR,45,72,-27,27
+construction_tools_construction,RJ,104,20,84,84
+construction_tools_construction,RN,6,0,6,6
+construction_tools_construction,RO,4,0,4,4
+construction_tools_construction,RS,34,5,29,29
+construction_tools_construction,SC,21,25,-4,4
+construction_tools_construction,SE,1,0,1,1
+construction_tools_construction,SP,335,506,-171,171
+construction_tools_garden,AM,2,0,2,2
+construction_tools_garden,BA,7,0,7,7
+construction_tools_garden,CE,6,0,6,6
+construction_tools_garden,DF,5,0,5,5
+construction_tools_garden,ES,2,0,2,2
+construction_tools_garden,GO,5,0,5,5
+construction_tools_garden,MG,21,17,4,4
+construction_tools_garden,MS,2,0,2,2
+construction_tools_garden,PA,1,0,1,1
+construction_tools_garden,PB,1,0,1,1
+construction_tools_garden,PE,6,0,6,6
+construction_tools_garden,PI,4,0,4,4
+construction_tools_garden,PR,5,9,-4,4
+construction_tools_garden,RJ,28,4,24,24
+construction_tools_garden,RN,3,4,-1,1
+construction_tools_garden,RO,2,0,2,2
+construction_tools_garden,RS,7,4,3,3
+construction_tools_garden,SC,4,5,-1,1
+construction_tools_garden,SP,76,144,-68,68
+construction_tools_lighting,BA,6,0,6,6
+construction_tools_lighting,CE,1,0,1,1
+construction_tools_lighting,DF,4,0,4,4
+construction_tools_lighting,ES,5,1,4,4
+construction_tools_lighting,GO,5,0,5,5
+construction_tools_lighting,MA,1,0,1,1
+construction_tools_lighting,MG,34,1,33,33
+construction_tools_lighting,MS,5,0,5,5
+construction_tools_lighting,MT,3,0,3,3
+construction_tools_lighting,PA,1,0,1,1
+construction_tools_lighting,PE,3,0,3,3
+construction_tools_lighting,PI,1,0,1,1
+construction_tools_lighting,PR,13,1,12,12
+construction_tools_lighting,RJ,18,2,16,16
+construction_tools_lighting,RS,14,5,9,9
+construction_tools_lighting,SC,10,8,2,2
+construction_tools_lighting,SE,1,0,1,1
+construction_tools_lighting,SP,107,215,-108,108
+construction_tools_lighting,TO,1,0,1,1
+construction_tools_tools,BA,4,0,4,4
+construction_tools_tools,CE,1,0,1,1
+construction_tools_tools,ES,4,2,2,2
+construction_tools_tools,GO,5,7,-2,2
+construction_tools_tools,MG,17,30,-13,13
+construction_tools_tools,MS,1,0,1,1
+construction_tools_tools,MT,1,0,1,1
+construction_tools_tools,PA,1,0,1,1
+construction_tools_tools,PB,1,0,1,1
+construction_tools_tools,PE,1,0,1,1
+construction_tools_tools,PR,7,7,0,0
+construction_tools_tools,RJ,9,0,9,9
+construction_tools_tools,RS,8,0,8,8
+construction_tools_tools,SC,5,7,-2,2
+construction_tools_tools,SP,32,44,-12,12
+cool_stuff,AC,1,0,1,1
+cool_stuff,AL,16,0,16,16
+cool_stuff,AM,4,0,4,4
+cool_stuff,AP,2,0,2,2
+cool_stuff,BA,137,1,136,136
+cool_stuff,CE,46,2,44,44
+cool_stuff,DF,78,77,1,1
+cool_stuff,ES,63,4,59,59
+cool_stuff,GO,84,15,69,69
+cool_stuff,MA,35,0,35,35
+cool_stuff,MG,429,242,187,187
+cool_stuff,MS,26,5,21,21
+cool_stuff,MT,44,7,37,37
+cool_stuff,PA,47,0,47,47
+cool_stuff,PB,22,0,22,22
+cool_stuff,PE,73,16,57,57
+cool_stuff,PI,20,0,20,20
+cool_stuff,PR,202,140,62,62
+cool_stuff,RJ,500,94,406,406
+cool_stuff,RN,21,0,21,21
+cool_stuff,RO,12,0,12,12
+cool_stuff,RR,2,0,2,2
+cool_stuff,RS,253,253,0,0
+cool_stuff,SC,147,101,46,46
+cool_stuff,SE,17,0,17,17
+cool_stuff,SP,1306,2646,-1340,1340
+cool_stuff,TO,16,0,16,16
+diapers_hygiene,BA,1,0,1,1
+diapers_hygiene,CE,1,0,1,1
+diapers_hygiene,MG,1,0,1,1
+diapers_hygiene,PB,1,0,1,1
+diapers_hygiene,PR,2,0,2,2
+diapers_hygiene,RJ,2,0,2,2
+diapers_hygiene,SP,19,26,-7,7
+drinks,AL,1,0,1,1
+drinks,AM,1,0,1,1
+drinks,BA,6,1,5,5
+drinks,CE,2,0,2,2
+drinks,DF,5,1,4,4
+drinks,ES,5,0,5,5
+drinks,GO,4,3,1,1
+drinks,MG,19,12,7,7
+drinks,MS,4,0,4,4
+drinks,MT,1,0,1,1
+drinks,PA,1,0,1,1
+drinks,PI,1,0,1,1
+drinks,PR,10,14,-4,4
+drinks,RJ,41,0,41,41
+drinks,RS,14,7,7,7
+drinks,SC,14,2,12,12
+drinks,SP,165,254,-89,89
+dvds_blu_ray,AL,1,0,1,1
+dvds_blu_ray,DF,3,0,3,3
+dvds_blu_ray,GO,1,40,-39,39
+dvds_blu_ray,MG,4,0,4,4
+dvds_blu_ray,MS,3,0,3,3
+dvds_blu_ray,PE,2,0,2,2
+dvds_blu_ray,PI,1,0,1,1
+dvds_blu_ray,PR,3,2,1,1
+dvds_blu_ray,RJ,12,0,12,12
+dvds_blu_ray,RN,1,0,1,1
+dvds_blu_ray,RO,1,0,1,1
+dvds_blu_ray,RS,4,0,4,4
+dvds_blu_ray,SC,2,0,2,2
+dvds_blu_ray,SP,21,17,4,4
+electronics,AC,4,0,4,4
+electronics,AL,13,0,13,13
+electronics,AM,4,0,4,4
+electronics,AP,3,0,3,3
+electronics,BA,98,2,96,96
+electronics,CE,41,0,41,41
+electronics,DF,50,93,-43,43
+electronics,ES,73,1,72,72
+electronics,GO,32,0,32,32
+electronics,MA,13,0,13,13
+electronics,MG,257,32,225,225
+electronics,MS,20,0,20,20
+electronics,MT,21,0,21,21
+electronics,PA,27,0,27,27
+electronics,PB,13,1,12,12
+electronics,PE,37,0,37,37
+electronics,PI,22,0,22,22
+electronics,PR,167,547,-380,380
+electronics,RJ,398,32,366,366
+electronics,RN,14,0,14,14
+electronics,RO,6,0,6,6
+electronics,RR,2,0,2,2
+electronics,RS,156,49,107,107
+electronics,SC,114,33,81,81
+electronics,SE,13,0,13,13
+electronics,SP,936,1750,-814,814
+electronics,TO,6,0,6,6
+fashion_bags_and_accessories,AC,1,0,1,1
+fashion_bags_and_accessories,AL,4,0,4,4
+fashion_bags_and_accessories,AM,1,0,1,1
+fashion_bags_and_accessories,BA,70,14,56,56
+fashion_bags_and_accessories,CE,28,1,27,27
+fashion_bags_and_accessories,DF,41,30,11,11
+fashion_bags_and_accessories,ES,45,0,45,45
+fashion_bags_and_accessories,GO,45,1,44,44
+fashion_bags_and_accessories,MA,22,0,22,22
+fashion_bags_and_accessories,MG,247,306,-59,59
+fashion_bags_and_accessories,MS,14,0,14,14
+fashion_bags_and_accessories,MT,13,0,13,13
+fashion_bags_and_accessories,PA,29,0,29,29
+fashion_bags_and_accessories,PB,12,0,12,12
+fashion_bags_and_accessories,PE,34,0,34,34
+fashion_bags_and_accessories,PI,5,0,5,5
+fashion_bags_and_accessories,PR,105,65,40,40
+fashion_bags_and_accessories,RJ,185,53,132,132
+fashion_bags_and_accessories,RN,7,0,7,7
+fashion_bags_and_accessories,RO,7,0,7,7
+fashion_bags_and_accessories,RS,76,71,5,5
+fashion_bags_and_accessories,SC,74,36,38,38
+fashion_bags_and_accessories,SE,8,0,8,8
+fashion_bags_and_accessories,SP,775,1277,-502,502
+fashion_bags_and_accessories,TO,6,0,6,6
+fashion_calcados,AC,2,0,2,2
+fashion_calcados,AL,3,0,3,3
+fashion_calcados,BA,7,0,7,7
+fashion_calcados,CE,2,0,2,2
+fashion_calcados,DF,7,2,5,5
+fashion_calcados,ES,5,0,5,5
+fashion_calcados,GO,6,0,6,6
+fashion_calcados,MA,1,0,1,1
+fashion_calcados,MG,41,0,41,41
+fashion_calcados,MS,4,0,4,4
+fashion_calcados,MT,3,0,3,3
+fashion_calcados,PA,4,0,4,4
+fashion_calcados,PB,1,0,1,1
+fashion_calcados,PE,11,0,11,11
+fashion_calcados,PI,1,0,1,1
+fashion_calcados,PR,16,79,-63,63
+fashion_calcados,RJ,22,0,22,22
+fashion_calcados,RN,2,0,2,2
+fashion_calcados,RO,1,0,1,1
+fashion_calcados,RS,10,0,10,10
+fashion_calcados,SC,5,1,4,4
+fashion_calcados,SP,83,156,-73,73
+fashion_calcados,TO,1,0,1,1
+fashion_clothes_infanto_juvenil,BA,1,0,1,1
+fashion_clothes_infanto_juvenil,RJ,1,1,0,0
+fashion_clothes_infanto_juvenil,SC,2,0,2,2
+fashion_clothes_infanto_juvenil,SP,4,4,0,0
+fashion_esporte,BA,1,0,1,1
+fashion_esporte,DF,1,0,1,1
+fashion_esporte,MA,1,0,1,1
+fashion_esporte,MG,2,1,1,1
+fashion_esporte,PA,1,0,1,1
+fashion_esporte,PR,1,0,1,1
+fashion_esporte,RJ,2,0,2,2
+fashion_esporte,RS,2,0,2,2
+fashion_esporte,SC,3,2,1,1
+fashion_esporte,SP,11,22,-11,11
+fashion_men's_clothes,BA,7,0,7,7
+fashion_men's_clothes,CE,1,0,1,1
+fashion_men's_clothes,ES,3,0,3,3
+fashion_men's_clothes,GO,3,0,3,3
+fashion_men's_clothes,MA,1,0,1,1
+fashion_men's_clothes,MG,14,1,13,13
+fashion_men's_clothes,MT,1,0,1,1
+fashion_men's_clothes,PA,2,0,2,2
+fashion_men's_clothes,PR,10,0,10,10
+fashion_men's_clothes,RJ,12,0,12,12
+fashion_men's_clothes,RS,7,0,7,7
+fashion_men's_clothes,SC,2,48,-46,46
+fashion_men's_clothes,SP,49,63,-14,14
+fashion_underwear_e_moda_beach,BA,6,0,6,6
+fashion_underwear_e_moda_beach,DF,2,0,2,2
+fashion_underwear_e_moda_beach,ES,1,0,1,1
+fashion_underwear_e_moda_beach,GO,5,0,5,5
+fashion_underwear_e_moda_beach,MG,13,2,11,11
+fashion_underwear_e_moda_beach,MS,3,0,3,3
+fashion_underwear_e_moda_beach,MT,1,0,1,1
+fashion_underwear_e_moda_beach,PA,3,0,3,3
+fashion_underwear_e_moda_beach,PE,2,0,2,2
+fashion_underwear_e_moda_beach,PI,1,0,1,1
+fashion_underwear_e_moda_beach,PR,6,0,6,6
+fashion_underwear_e_moda_beach,RJ,14,0,14,14
+fashion_underwear_e_moda_beach,RS,3,0,3,3
+fashion_underwear_e_moda_beach,SC,7,0,7,7
+fashion_underwear_e_moda_beach,SP,54,119,-65,65
+fashion_women's_clothes,BA,1,0,1,1
+fashion_women's_clothes,DF,1,0,1,1
+fashion_women's_clothes,ES,1,0,1,1
+fashion_women's_clothes,GO,2,0,2,2
+fashion_women's_clothes,MG,7,0,7,7
+fashion_women's_clothes,MT,1,0,1,1
+fashion_women's_clothes,PB,1,0,1,1
+fashion_women's_clothes,PR,2,1,1,1
+fashion_women's_clothes,RJ,2,0,2,2
+fashion_women's_clothes,SC,1,2,-1,1
+fashion_women's_clothes,SP,20,35,-15,15
+flowers,ES,2,0,2,2
+flowers,GO,1,0,1,1
+flowers,MG,4,0,4,4
+flowers,MS,1,0,1,1
+flowers,PE,1,0,1,1
+flowers,RJ,7,1,6,6
+flowers,RS,3,0,3,3
+flowers,SP,10,28,-18,18
+food_drinks,AL,1,0,1,1
+food_drinks,BA,6,34,-28,28
+food_drinks,CE,3,0,3,3
+food_drinks,DF,4,0,4,4
+food_drinks,ES,6,0,6,6
+food_drinks,MA,2,0,2,2
+food_drinks,MG,19,58,-39,39
+food_drinks,MS,1,0,1,1
+food_drinks,PA,1,0,1,1
+food_drinks,PE,5,0,5,5
+food_drinks,PI,1,0,1,1
+food_drinks,PR,13,1,12,12
+food_drinks,RJ,41,1,40,40
+food_drinks,RN,4,0,4,4
+food_drinks,RS,4,0,4,4
+food_drinks,SC,3,6,-3,3
+food_drinks,SE,1,0,1,1
+food_drinks,SP,109,124,-15,15
+foods,AL,1,0,1,1
+foods,AM,1,0,1,1
+foods,BA,15,0,15,15
+foods,CE,5,26,-21,21
+foods,DF,7,0,7,7
+foods,ES,14,1,13,13
+foods,GO,6,0,6,6
+foods,MG,35,7,28,28
+foods,MS,4,0,4,4
+foods,MT,6,0,6,6
+foods,PB,3,0,3,3
+foods,PE,8,0,8,8
+foods,PI,1,0,1,1
+foods,PR,26,3,23,23
+foods,RJ,39,8,31,31
+foods,RN,2,0,2,2
+foods,RO,1,0,1,1
+foods,RS,11,2,9,9
+foods,SC,14,4,10,10
+foods,SE,1,0,1,1
+foods,SP,244,393,-149,149
+furniture_decoration,AC,6,0,6,6
+furniture_decoration,AL,25,0,25,25
+furniture_decoration,AM,4,0,4,4
+furniture_decoration,AP,2,0,2,2
+furniture_decoration,BA,199,1,198,198
+furniture_decoration,CE,68,6,62,62
+furniture_decoration,DF,109,19,90,90
+furniture_decoration,ES,111,5,106,106
+furniture_decoration,GO,104,1,103,103
+furniture_decoration,MA,40,0,40,40
+furniture_decoration,MG,711,476,235,235
+furniture_decoration,MS,45,0,45,45
+furniture_decoration,MT,52,0,52,52
+furniture_decoration,PA,54,0,54,54
+furniture_decoration,PB,31,0,31,31
+furniture_decoration,PE,72,6,66,66
+furniture_decoration,PI,15,0,15,15
+furniture_decoration,PR,389,971,-582,582
+furniture_decoration,RJ,842,97,745,745
+furniture_decoration,RN,29,14,15,15
+furniture_decoration,RO,10,0,10,10
+furniture_decoration,RR,4,0,4,4
+furniture_decoration,RS,432,63,369,369
+furniture_decoration,SC,273,91,182,182
+furniture_decoration,SE,19,0,19,19
+furniture_decoration,SP,2695,4605,-1910,1910
+furniture_decoration,TO,14,0,14,14
+furniture_kitchen_area_de_servico_dinner_e_garden,AL,1,0,1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,BA,3,0,3,3
+furniture_kitchen_area_de_servico_dinner_e_garden,CE,1,0,1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,DF,5,0,5,5
+furniture_kitchen_area_de_servico_dinner_e_garden,ES,1,0,1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,GO,2,0,2,2
+furniture_kitchen_area_de_servico_dinner_e_garden,MG,26,27,-1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,MT,2,0,2,2
+furniture_kitchen_area_de_servico_dinner_e_garden,PA,1,0,1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,PB,1,0,1,1
+furniture_kitchen_area_de_servico_dinner_e_garden,PE,4,0,4,4
+furniture_kitchen_area_de_servico_dinner_e_garden,PR,12,15,-3,3
+furniture_kitchen_area_de_servico_dinner_e_garden,RJ,43,1,42,42
+furniture_kitchen_area_de_servico_dinner_e_garden,RN,2,0,2,2
+furniture_kitchen_area_de_servico_dinner_e_garden,RS,12,31,-19,19
+furniture_kitchen_area_de_servico_dinner_e_garden,SC,6,8,-2,2
+furniture_kitchen_area_de_servico_dinner_e_garden,SP,123,164,-41,41
+furniture_kitchen_area_de_servico_dinner_e_garden,TO,1,0,1,1
+furniture_mattress_and_upholstery,DF,1,3,-2,2
+furniture_mattress_and_upholstery,GO,1,0,1,1
+furniture_mattress_and_upholstery,MG,3,2,1,1
+furniture_mattress_and_upholstery,RJ,8,10,-2,2
+furniture_mattress_and_upholstery,RN,1,0,1,1
+furniture_mattress_and_upholstery,SC,2,0,2,2
+furniture_mattress_and_upholstery,SP,22,23,-1,1
+furniture_office,AL,3,0,3,3
+furniture_office,AM,2,0,2,2
+furniture_office,BA,61,0,61,61
+furniture_office,CE,22,0,22,22
+furniture_office,DF,19,0,19,19
+furniture_office,ES,24,0,24,24
+furniture_office,GO,21,0,21,21
+furniture_office,MA,14,0,14,14
+furniture_office,MG,133,6,127,127
+furniture_office,MS,4,0,4,4
+furniture_office,MT,14,0,14,14
+furniture_office,PA,21,0,21,21
+furniture_office,PB,7,0,7,7
+furniture_office,PE,19,0,19,19
+furniture_office,PI,9,0,9,9
+furniture_office,PR,55,28,27,27
+furniture_office,RJ,215,13,202,202
+furniture_office,RN,5,0,5,5
+furniture_office,RO,5,0,5,5
+furniture_office,RR,1,0,1,1
+furniture_office,RS,56,1,55,55
+furniture_office,SC,42,8,34,34
+furniture_office,SE,3,0,3,3
+furniture_office,SP,505,1209,-704,704
+furniture_office,TO,5,0,5,5
+furniture_room,BA,4,0,4,4
+furniture_room,DF,1,0,1,1
+furniture_room,ES,1,0,1,1
+furniture_room,GO,1,0,1,1
+furniture_room,MG,7,5,2,2
+furniture_room,MS,1,0,1,1
+furniture_room,MT,1,2,-1,1
+furniture_room,PE,1,0,1,1
+furniture_room,PR,8,15,-7,7
+furniture_room,RJ,17,1,16,16
+furniture_room,RN,2,0,2,2
+furniture_room,RS,2,1,1,1
+furniture_room,SC,3,3,0,0
+furniture_room,SE,2,0,2,2
+furniture_room,SP,43,63,-20,20
+garden_tools,AC,2,0,2,2
+garden_tools,AL,13,0,13,13
+garden_tools,AM,5,0,5,5
+garden_tools,AP,2,0,2,2
+garden_tools,BA,144,1,143,143
+garden_tools,CE,46,0,46,46
+garden_tools,DF,44,26,18,18
+garden_tools,ES,84,191,-107,107
+garden_tools,GO,74,6,68,68
+garden_tools,MA,19,0,19,19
+garden_tools,MG,486,493,-7,7
+garden_tools,MS,20,0,20,20
+garden_tools,MT,37,0,37,37
+garden_tools,PA,26,0,26,26
+garden_tools,PB,14,0,14,14
+garden_tools,PE,57,0,57,57
+garden_tools,PI,17,0,17,17
+garden_tools,PR,173,198,-25,25
+garden_tools,RJ,542,37,505,505
+garden_tools,RN,16,0,16,16
+garden_tools,RO,6,0,6,6
+garden_tools,RR,2,0,2,2
+garden_tools,RS,227,40,187,187
+garden_tools,SC,143,111,32,32
+garden_tools,SE,19,0,19,19
+garden_tools,SP,1256,2379,-1123,1123
+garden_tools,TO,8,0,8,8
+home appliances,AL,3,0,3,3
+home appliances,AM,2,0,2,2
+home appliances,BA,38,0,38,38
+home appliances,CE,7,0,7,7
+home appliances,DF,15,1,14,14
+home appliances,ES,15,1,14,14
+home appliances,GO,14,2,12,12
+home appliances,MA,3,0,3,3
+home appliances,MG,85,6,79,79
+home appliances,MS,6,0,6,6
+home appliances,MT,8,0,8,8
+home appliances,PA,10,0,10,10
+home appliances,PB,2,0,2,2
+home appliances,PE,5,0,5,5
+home appliances,PI,4,0,4,4
+home appliances,PR,42,10,32,32
+home appliances,RJ,83,12,71,71
+home appliances,RN,2,0,2,2
+home appliances,RO,2,0,2,2
+home appliances,RR,3,0,3,3
+home appliances,RS,44,0,44,44
+home appliances,SC,24,8,16,16
+home appliances,SE,1,0,1,1
+home appliances,SP,345,724,-379,379
+home appliances,TO,1,0,1,1
+house_construction,AL,3,0,3,3
+house_construction,AM,4,0,4,4
+house_construction,BA,10,0,10,10
+house_construction,CE,7,0,7,7
+house_construction,DF,7,0,7,7
+house_construction,ES,14,1,13,13
+house_construction,GO,12,0,12,12
+house_construction,MA,3,0,3,3
+house_construction,MG,55,2,53,53
+house_construction,MS,7,0,7,7
+house_construction,MT,6,0,6,6
+house_construction,PA,1,0,1,1
+house_construction,PB,5,0,5,5
+house_construction,PE,6,0,6,6
+house_construction,PI,3,0,3,3
+house_construction,PR,20,16,4,4
+house_construction,RJ,51,21,30,30
+house_construction,RN,1,0,1,1
+house_construction,RS,35,14,21,21
+house_construction,SC,21,15,6,6
+house_construction,SE,2,0,2,2
+house_construction,SP,199,404,-205,205
+house_construction,TO,1,0,1,1
+housewares,AC,3,0,3,3
+housewares,AL,9,0,9,9
+housewares,AM,4,0,4,4
+housewares,AP,4,0,4,4
+housewares,BA,141,0,141,141
+housewares,CE,47,2,45,45
+housewares,DF,123,25,98,98
+housewares,ES,103,8,95,95
+housewares,GO,98,52,46,46
+housewares,MA,22,0,22,22
+housewares,MG,693,754,-61,61
+housewares,MS,34,0,34,34
+housewares,MT,40,0,40,40
+housewares,PA,31,0,31,31
+housewares,PB,18,2,16,16
+housewares,PE,55,1,54,54
+housewares,PI,14,0,14,14
+housewares,PR,280,322,-42,42
+housewares,RJ,740,118,622,622
+housewares,RN,21,0,21,21
+housewares,RO,5,0,5,5
+housewares,RS,346,155,191,191
+housewares,SC,221,318,-97,97
+housewares,SE,8,0,8,8
+housewares,SP,2757,4072,-1315,1315
+housewares,TO,12,0,12,12
+imported_books,BA,1,0,1,1
+imported_books,MA,1,0,1,1
+imported_books,MG,5,0,5,5
+imported_books,PA,1,0,1,1
+imported_books,PR,2,0,2,2
+imported_books,RJ,5,1,4,4
+imported_books,RS,2,0,2,2
+imported_books,SC,1,0,1,1
+imported_books,SE,1,0,1,1
+imported_books,SP,33,51,-18,18
+industria_comercio_e_negocios,AL,1,0,1,1
+industria_comercio_e_negocios,BA,4,0,4,4
+industria_comercio_e_negocios,CE,2,0,2,2
+industria_comercio_e_negocios,DF,5,0,5,5
+industria_comercio_e_negocios,ES,2,0,2,2
+industria_comercio_e_negocios,GO,6,0,6,6
+industria_comercio_e_negocios,MA,1,0,1,1
+industria_comercio_e_negocios,MG,14,11,3,3
+industria_comercio_e_negocios,MS,1,0,1,1
+industria_comercio_e_negocios,MT,3,0,3,3
+industria_comercio_e_negocios,PB,3,0,3,3
+industria_comercio_e_negocios,PE,4,0,4,4
+industria_comercio_e_negocios,PI,3,0,3,3
+industria_comercio_e_negocios,PR,9,27,-18,18
+industria_comercio_e_negocios,RJ,22,0,22,22
+industria_comercio_e_negocios,RN,1,0,1,1
+industria_comercio_e_negocios,RO,1,0,1,1
+industria_comercio_e_negocios,RS,19,9,10,10
+industria_comercio_e_negocios,SC,13,10,3,3
+industria_comercio_e_negocios,SE,3,1,2,2
+industria_comercio_e_negocios,SP,114,174,-60,60
+industria_comercio_e_negocios,TO,1,0,1,1
+informatica_acessorios,AC,7,0,7,7
+informatica_acessorios,AL,34,0,34,34
+informatica_acessorios,AM,11,0,11,11
+informatica_acessorios,AP,7,0,7,7
+informatica_acessorios,BA,222,38,184,184
+informatica_acessorios,CE,85,0,85,85
+informatica_acessorios,DF,135,141,-6,6
+informatica_acessorios,ES,139,6,133,133
+informatica_acessorios,GO,111,31,80,80
+informatica_acessorios,MA,65,0,65,65
+informatica_acessorios,MG,875,1377,-502,502
+informatica_acessorios,MS,55,0,55,55
+informatica_acessorios,MT,44,0,44,44
+informatica_acessorios,PA,84,0,84,84
+informatica_acessorios,PB,41,0,41,41
+informatica_acessorios,PE,100,339,-239,239
+informatica_acessorios,PI,36,0,36,36
+informatica_acessorios,PR,337,1278,-941,941
+informatica_acessorios,RJ,852,121,731,731
+informatica_acessorios,RN,27,0,27,27
+informatica_acessorios,RO,17,0,17,17
+informatica_acessorios,RR,5,0,5,5
+informatica_acessorios,RS,387,339,48,48
+informatica_acessorios,SC,266,133,133,133
+informatica_acessorios,SE,33,3,30,30
+informatica_acessorios,SP,2666,2854,-188,188
+informatica_acessorios,TO,19,0,19,19
+insurance_and_services,DF,1,0,1,1
+insurance_and_services,RO,1,0,1,1
+kitchen_portables_and_food_preparators,BA,1,0,1,1
+kitchen_portables_and_food_preparators,GO,1,0,1,1
+kitchen_portables_and_food_preparators,MG,2,0,2,2
+kitchen_portables_and_food_preparators,PA,1,0,1,1
+kitchen_portables_and_food_preparators,RJ,1,0,1,1
+kitchen_portables_and_food_preparators,RS,1,0,1,1
+kitchen_portables_and_food_preparators,SP,7,14,-7,7
+la_cuisine,GO,1,0,1,1
+la_cuisine,MG,2,0,2,2
+la_cuisine,RS,3,0,3,3
+la_cuisine,SC,2,11,-9,9
+la_cuisine,SP,4,1,3,3
+landline_telephony,AL,4,0,4,4
+landline_telephony,AM,1,0,1,1
+landline_telephony,AP,2,0,2,2
+landline_telephony,BA,8,3,5,5
+landline_telephony,CE,3,0,3,3
+landline_telephony,DF,3,3,0,0
+landline_telephony,ES,6,5,1,1
+landline_telephony,GO,5,2,3,3
+landline_telephony,MA,1,0,1,1
+landline_telephony,MG,17,10,7,7
+landline_telephony,MS,1,0,1,1
+landline_telephony,PA,1,0,1,1
+landline_telephony,PB,4,0,4,4
+landline_telephony,PE,3,0,3,3
+landline_telephony,PI,2,0,2,2
+landline_telephony,PR,6,2,4,4
+landline_telephony,RJ,27,0,27,27
+landline_telephony,RS,18,9,9,9
+landline_telephony,SC,5,0,5,5
+landline_telephony,SE,1,0,1,1
+landline_telephony,SP,97,182,-85,85
+landline_telephony,TO,2,0,2,2
+living room furniture,AC,1,0,1,1
+living room furniture,AL,3,0,3,3
+living room furniture,BA,17,0,17,17
+living room furniture,CE,2,1,1,1
+living room furniture,DF,7,7,0,0
+living room furniture,ES,11,7,4,4
+living room furniture,GO,10,0,10,10
+living room furniture,MA,2,0,2,2
+living room furniture,MG,43,155,-112,112
+living room furniture,MS,3,0,3,3
+living room furniture,MT,3,0,3,3
+living room furniture,PA,1,0,1,1
+living room furniture,PB,3,0,3,3
+living room furniture,PE,4,0,4,4
+living room furniture,PI,2,0,2,2
+living room furniture,PR,14,25,-11,11
+living room furniture,RJ,95,52,43,43
+living room furniture,RO,1,0,1,1
+living room furniture,RS,22,2,20,20
+living room furniture,SC,11,7,4,4
+living room furniture,SE,2,0,2,2
+living room furniture,SP,158,161,-3,3
+living room furniture,TO,2,0,2,2
+market_place,AC,1,0,1,1
+market_place,AL,2,0,2,2
+market_place,AM,1,0,1,1
+market_place,BA,4,0,4,4
+market_place,CE,4,0,4,4
+market_place,DF,4,1,3,3
+market_place,ES,7,0,7,7
+market_place,GO,7,0,7,7
+market_place,MA,4,0,4,4
+market_place,MG,31,5,26,26
+market_place,MS,2,0,2,2
+market_place,MT,5,0,5,5
+market_place,PA,5,0,5,5
+market_place,PB,2,0,2,2
+market_place,PE,3,0,3,3
+market_place,PI,3,0,3,3
+market_place,PR,14,12,2,2
+market_place,RJ,32,3,29,29
+market_place,RN,2,0,2,2
+market_place,RO,1,0,1,1
+market_place,RS,20,15,5,5
+market_place,SC,14,30,-16,16
+market_place,SE,3,0,3,3
+market_place,SP,102,208,-106,106
+market_place,TO,1,0,1,1
+music,AM,1,0,1,1
+music,CE,1,0,1,1
+music,DF,1,0,1,1
+music,GO,1,1,0,0
+music,MG,6,2,4,4
+music,PR,7,6,1,1
+music,RJ,8,2,6,6
+music,RS,1,0,1,1
+music,SP,11,24,-13,13
+musical instruments,AC,1,0,1,1
+musical instruments,AL,1,0,1,1
+musical instruments,AM,1,0,1,1
+musical instruments,AP,2,0,2,2
+musical instruments,BA,33,0,33,33
+musical instruments,CE,7,0,7,7
+musical instruments,DF,10,0,10,10
+musical instruments,ES,19,4,15,15
+musical instruments,GO,9,0,9,9
+musical instruments,MA,8,0,8,8
+musical instruments,MG,70,26,44,44
+musical instruments,MS,7,0,7,7
+musical instruments,MT,5,0,5,5
+musical instruments,PA,9,0,9,9
+musical instruments,PB,4,0,4,4
+musical instruments,PE,11,0,11,11
+musical instruments,PI,5,0,5,5
+musical instruments,PR,34,56,-22,22
+musical instruments,RJ,76,21,55,55
+musical instruments,RN,2,0,2,2
+musical instruments,RO,1,0,1,1
+musical instruments,RS,30,8,22,22
+musical instruments,SC,24,134,-110,110
+musical instruments,SE,3,0,3,3
+musical instruments,SP,251,375,-124,124
+musical instruments,TO,1,0,1,1
+party_goods,DF,1,0,1,1
+party_goods,ES,2,0,2,2
+party_goods,GO,1,0,1,1
+party_goods,MG,4,0,4,4
+party_goods,PI,1,0,1,1
+party_goods,PR,2,0,2,2
+party_goods,RJ,5,5,0,0
+party_goods,RS,3,0,3,3
+party_goods,SC,2,8,-6,6
+party_goods,SP,18,26,-8,8
+pc_gamer,MG,1,0,1,1
+pc_gamer,PE,1,0,1,1
+pc_gamer,RJ,1,0,1,1
+pc_gamer,RS,1,0,1,1
+pc_gamer,SP,3,7,-4,4
+pcs,AC,1,0,1,1
+pcs,AL,2,0,2,2
+pcs,AM,1,0,1,1
+pcs,AP,1,0,1,1
+pcs,BA,19,147,-128,128
+pcs,CE,6,0,6,6
+pcs,DF,6,0,6,6
+pcs,ES,3,0,3,3
+pcs,GO,2,0,2,2
+pcs,MA,5,0,5,5
+pcs,MG,18,2,16,16
+pcs,MS,1,0,1,1
+pcs,MT,2,0,2,2
+pcs,PA,4,0,4,4
+pcs,PB,4,0,4,4
+pcs,PE,9,0,9,9
+pcs,PI,3,0,3,3
+pcs,PR,4,1,3,3
+pcs,RJ,22,0,22,22
+pcs,RO,2,0,2,2
+pcs,RS,8,0,8,8
+pcs,SC,5,0,5,5
+pcs,SE,2,0,2,2
+pcs,SP,49,30,19,19
+pcs,TO,1,0,1,1
+perfumery,AC,3,0,3,3
+perfumery,AL,12,0,12,12
+perfumery,AM,2,0,2,2
+perfumery,BA,80,0,80,80
+perfumery,CE,54,0,54,54
+perfumery,DF,82,31,51,51
+perfumery,ES,60,5,55,55
+perfumery,GO,84,24,60,60
+perfumery,MA,30,0,30,30
+perfumery,MG,377,127,250,250
+perfumery,MS,21,0,21,21
+perfumery,MT,22,54,-32,32
+perfumery,PA,33,0,33,33
+perfumery,PB,17,0,17,17
+perfumery,PE,47,0,47,47
+perfumery,PI,16,0,16,16
+perfumery,PR,136,164,-28,28
+perfumery,RJ,413,573,-160,160
+perfumery,RN,21,0,21,21
+perfumery,RO,6,0,6,6
+perfumery,RR,1,0,1,1
+perfumery,RS,145,8,137,137
+perfumery,SC,106,76,30,30
+perfumery,SE,6,0,6,6
+perfumery,SP,1363,2087,-724,724
+perfumery,TO,12,0,12,12
+pet Shop,AL,3,0,3,3
+pet Shop,AM,4,0,4,4
+pet Shop,AP,1,0,1,1
+pet Shop,BA,54,2,52,52
+pet Shop,CE,13,0,13,13
+pet Shop,DF,35,1,34,34
+pet Shop,ES,21,0,21,21
+pet Shop,GO,25,0,25,25
+pet Shop,MA,9,0,9,9
+pet Shop,MG,222,373,-151,151
+pet Shop,MS,22,0,22,22
+pet Shop,MT,14,0,14,14
+pet Shop,PA,11,0,11,11
+pet Shop,PB,8,0,8,8
+pet Shop,PE,22,0,22,22
+pet Shop,PI,7,0,7,7
+pet Shop,PR,82,131,-49,49
+pet Shop,RJ,198,106,92,92
+pet Shop,RN,9,0,9,9
+pet Shop,RO,8,0,8,8
+pet Shop,RS,84,7,77,77
+pet Shop,SC,79,80,-1,1
+pet Shop,SE,3,0,3,3
+pet Shop,SP,766,1004,-238,238
+pet Shop,TO,4,0,4,4
+portateis_casa_forno_e_cafe,BA,3,0,3,3
+portateis_casa_forno_e_cafe,DF,1,0,1,1
+portateis_casa_forno_e_cafe,MG,10,20,-10,10
+portateis_casa_forno_e_cafe,MS,1,0,1,1
+portateis_casa_forno_e_cafe,MT,1,0,1,1
+portateis_casa_forno_e_cafe,PE,1,0,1,1
+portateis_casa_forno_e_cafe,PR,8,2,6,6
+portateis_casa_forno_e_cafe,RJ,7,0,7,7
+portateis_casa_forno_e_cafe,RO,1,0,1,1
+portateis_casa_forno_e_cafe,RS,3,0,3,3
+portateis_casa_forno_e_cafe,SC,4,0,4,4
+portateis_casa_forno_e_cafe,SP,34,53,-19,19
+portateis_casa_forno_e_cafe,TO,1,0,1,1
+signaling_and_safety,BA,6,0,6,6
+signaling_and_safety,DF,4,0,4,4
+signaling_and_safety,ES,4,1,3,3
+signaling_and_safety,GO,5,0,5,5
+signaling_and_safety,MG,10,5,5,5
+signaling_and_safety,MS,1,0,1,1
+signaling_and_safety,MT,1,0,1,1
+signaling_and_safety,PA,1,0,1,1
+signaling_and_safety,PB,1,0,1,1
+signaling_and_safety,PE,1,0,1,1
+signaling_and_safety,PR,3,6,-3,3
+signaling_and_safety,RJ,17,2,15,15
+signaling_and_safety,RN,1,0,1,1
+signaling_and_safety,RS,14,7,7,7
+signaling_and_safety,SC,5,3,2,2
+signaling_and_safety,SE,1,0,1,1
+signaling_and_safety,SP,65,116,-51,51
+small appliances,AC,1,0,1,1
+small appliances,BA,18,0,18,18
+small appliances,CE,8,0,8,8
+small appliances,DF,23,4,19,19
+small appliances,ES,3,2,1,1
+small appliances,GO,10,9,1,1
+small appliances,MA,2,0,2,2
+small appliances,MG,61,42,19,19
+small appliances,MS,5,0,5,5
+small appliances,MT,7,0,7,7
+small appliances,PA,8,0,8,8
+small appliances,PB,4,0,4,4
+small appliances,PE,3,0,3,3
+small appliances,PR,39,50,-11,11
+small appliances,RJ,85,26,59,59
+small appliances,RN,3,1,2,2
+small appliances,RO,1,0,1,1
+small appliances,RS,39,59,-20,20
+small appliances,SC,26,30,-4,4
+small appliances,SE,3,0,3,3
+small appliances,SP,278,404,-126,126
+sport_leisure,AC,9,0,9,9
+sport_leisure,AL,32,0,32,32
+sport_leisure,AM,12,0,12,12
+sport_leisure,AP,6,0,6,6
+sport_leisure,BA,254,29,225,225
+sport_leisure,CE,89,0,89,89
+sport_leisure,DF,193,7,186,186
+sport_leisure,ES,156,21,135,135
+sport_leisure,GO,151,117,34,34
+sport_leisure,MA,57,0,57,57
+sport_leisure,MG,860,417,443,443
+sport_leisure,MS,60,0,60,60
+sport_leisure,MT,70,0,70,70
+sport_leisure,PA,76,8,68,68
+sport_leisure,PB,32,1,31,31
+sport_leisure,PE,134,4,130,130
+sport_leisure,PI,31,0,31,31
+sport_leisure,PR,425,1191,-766,766
+sport_leisure,RJ,917,345,572,572
+sport_leisure,RN,20,8,12,12
+sport_leisure,RO,17,0,17,17
+sport_leisure,RR,6,0,6,6
+sport_leisure,RS,421,117,304,304
+sport_leisure,SC,314,548,-234,234
+sport_leisure,SE,31,0,31,31
+sport_leisure,SP,3285,4868,-1583,1583
+sport_leisure,TO,23,0,23,23
+stationery shop,AC,2,0,2,2
+stationery shop,AL,8,0,8,8
+stationery shop,AM,6,0,6,6
+stationery shop,AP,2,0,2,2
+stationery shop,BA,76,0,76,76
+stationery shop,CE,30,0,30,30
+stationery shop,DF,45,37,8,8
+stationery shop,ES,47,5,42,42
+stationery shop,GO,43,1,42,42
+stationery shop,MA,16,0,16,16
+stationery shop,MG,242,330,-88,88
+stationery shop,MS,19,0,19,19
+stationery shop,MT,24,0,24,24
+stationery shop,PA,22,0,22,22
+stationery shop,PB,16,0,16,16
+stationery shop,PE,47,0,47,47
+stationery shop,PI,10,0,10,10
+stationery shop,PR,121,60,61,61
+stationery shop,RJ,303,39,264,264
+stationery shop,RN,11,0,11,11
+stationery shop,RO,7,0,7,7
+stationery shop,RR,2,0,2,2
+stationery shop,RS,132,41,91,91
+stationery shop,SC,82,23,59,59
+stationery shop,SE,3,0,3,3
+stationery shop,SP,975,1758,-783,783
+stationery shop,TO,3,0,3,3
+tablets_impression_image,AM,1,0,1,1
+tablets_impression_image,BA,5,0,5,5
+tablets_impression_image,CE,1,0,1,1
+tablets_impression_image,ES,4,0,4,4
+tablets_impression_image,GO,1,0,1,1
+tablets_impression_image,MA,1,0,1,1
+tablets_impression_image,MG,8,1,7,7
+tablets_impression_image,MS,1,0,1,1
+tablets_impression_image,MT,2,0,2,2
+tablets_impression_image,PA,4,0,4,4
+tablets_impression_image,PE,2,0,2,2
+tablets_impression_image,PI,3,0,3,3
+tablets_impression_image,PR,3,0,3,3
+tablets_impression_image,RJ,10,0,10,10
+tablets_impression_image,RS,1,0,1,1
+tablets_impression_image,SP,30,76,-46,46
+technical books,BA,10,0,10,10
+technical books,CE,4,3,1,1
+technical books,DF,4,0,4,4
+technical books,ES,14,0,14,14
+technical books,GO,2,0,2,2
+technical books,MA,3,0,3,3
+technical books,MG,27,0,27,27
+technical books,MS,4,0,4,4
+technical books,MT,5,0,5,5
+technical books,PA,2,0,2,2
+technical books,PE,4,0,4,4
+technical books,PI,2,0,2,2
+technical books,PR,15,13,2,2
+technical books,RJ,29,1,28,28
+technical books,RN,1,0,1,1
+technical books,RS,12,3,9,9
+technical books,SC,9,0,9,9
+technical books,SP,110,238,-128,128
+technical books,TO,2,0,2,2
+telephony,AC,5,0,5,5
+telephony,AL,26,0,26,26
+telephony,AM,14,3,11,11
+telephony,AP,4,0,4,4
+telephony,BA,227,272,-45,45
+telephony,CE,95,0,95,95
+telephony,DF,85,40,45,45
+telephony,ES,104,1,103,103
+telephony,GO,115,0,115,115
+telephony,MA,60,0,60,60
+telephony,MG,459,42,417,417
+telephony,MS,26,0,26,26
+telephony,MT,59,0,59,59
+telephony,PA,70,0,70,70
+telephony,PB,25,5,20,20
+telephony,PE,122,1,121,121
+telephony,PI,35,0,35,35
+telephony,PR,225,85,140,140
+telephony,RJ,405,42,363,363
+telephony,RN,22,0,22,22
+telephony,RO,17,0,17,17
+telephony,RR,4,0,4,4
+telephony,RS,254,15,239,239
+telephony,SC,163,54,109,109
+telephony,SE,27,0,27,27
+telephony,SP,1514,3622,-2108,2108
+telephony,TO,20,0,20,20
+toys,AC,3,0,3,3
+toys,AL,12,0,12,12
+toys,AM,6,0,6,6
+toys,AP,3,0,3,3
+toys,BA,116,1,115,115
+toys,CE,63,0,63,63
+toys,DF,90,31,59,59
+toys,ES,93,0,93,93
+toys,GO,74,1,73,73
+toys,MA,21,0,21,21
+toys,MG,455,190,265,265
+toys,MS,34,2,32,32
+toys,MT,39,0,39,39
+toys,PA,29,0,29,29
+toys,PB,15,0,15,15
+toys,PE,57,2,55,55
+toys,PI,27,0,27,27
+toys,PR,200,206,-6,6
+toys,RJ,549,477,72,72
+toys,RN,22,0,22,22
+toys,RO,13,0,13,13
+toys,RS,201,138,63,63
+toys,SC,115,149,-34,34
+toys,SE,11,0,11,11
+toys,SP,1601,2664,-1063,1063
+toys,TO,12,0,12,12
+watches_gifts,AC,4,0,4,4
+watches_gifts,AL,35,0,35,35
+watches_gifts,AM,11,0,11,11
+watches_gifts,AP,7,0,7,7
+watches_gifts,BA,221,4,217,217
+watches_gifts,CE,129,0,129,129
+watches_gifts,DF,143,1,142,142
+watches_gifts,ES,145,0,145,145
+watches_gifts,GO,143,0,143,143
+watches_gifts,MA,58,0,58,58
+watches_gifts,MG,610,135,475,475
+watches_gifts,MS,29,0,29,29
+watches_gifts,MT,58,0,58,58
+watches_gifts,PA,74,0,74,74
+watches_gifts,PB,43,15,28,28
+watches_gifts,PE,147,3,144,144
+watches_gifts,PI,37,0,37,37
+watches_gifts,PR,274,165,109,109
+watches_gifts,RJ,808,464,344,344
+watches_gifts,RN,47,0,47,47
+watches_gifts,RO,14,0,14,14
+watches_gifts,RR,1,0,1,1
+watches_gifts,RS,227,25,202,202
+watches_gifts,SC,164,221,-57,57
+watches_gifts,SE,20,0,20,20
+watches_gifts,SP,2125,4568,-2443,2443
+watches_gifts,TO,27,0,27,27
+air conditioning,MS,0,1,-1,1
+arts_and_crafts,RS,0,1,-1,1
+diapers_hygiene,SC,0,1,-1,1
+fashion_clothes_infanto_juvenil,RS,0,3,-3,3
+fashion_women's_clothes,RS,0,1,-1,1
+furniture_room,CE,0,4,-4,4
+insurance_and_services,SP,0,2,-2,2
+landline_telephony,RN,0,1,-1,1
+music,SC,0,2,-2,2
+technical books,AC,0,1,-1,1
