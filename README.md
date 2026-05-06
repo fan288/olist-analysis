@@ -7,12 +7,40 @@ Olist is an online retailer in Brazil that provides an open-source dataset conta
 - Data Sources: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - Used Tools: Python (Pandas, Matplotlib, Numpy, NLTK), PostgreSQL, Power BI
 
+## Raw data (`data/raw/`)
+This folder is **not tracked in git**. Place CSV inputs here (repository root: `data/raw/`).
+
+1. Download the dataset from Kaggle: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+2. Unzip it and copy the CSV files into `data/raw/`.
+
+Files that come with the standard Kaggle download and are read by the notebooks:
+
+- `olist_customers_dataset.csv`
+- `olist_geolocation_dataset.csv`
+- `olist_order_items_dataset.csv`
+- `olist_order_payments_dataset.csv`
+- `olist_order_reviews_dataset.csv`
+- `olist_orders_dataset.csv`
+- `olist_products_dataset.csv`
+- `olist_sellers_dataset.csv`
+- `product_category_name_translation.csv`
+
+**Extra files this repo expects** (not part of the default Kaggle bundle; add your own copies or adapt the notebooks):
+
+- `olist_interface_score_dataset.csv` — used in `generate_customer_seller_geolocation.ipynb`
+- `olist_order_reviews_dataset_translated_nodup.csv` — used in `generate_customer_seller_geolocation.ipynb` and `nltk_comments.ipynb`
+
+**Generated under `data/raw/`** when you run the pipeline:
+
+- `order_geolocation.csv` — produced by `generate_customer_seller_geolocation.ipynb` and required by `states_demand_supply.ipynb` and `nltk_comments.ipynb`. Follow **Recommended Run Order** so this file exists before those notebooks.
+
 ## Local Setup
 1. Create and activate a virtual environment:
    - `python3 -m venv venv`
    - `source venv/bin/activate` (macOS/Linux) or `venv\\Scripts\\activate` (Windows)
 2. Install dependencies:
-   - `pip install -r requirements.txt`
+   - `pip install -r requirements.txt` (version ranges; good default)
+   - Optional — closer match to a fully pinned environment: `pip install -r requirements-lock.txt`
 3. Open notebooks in `notebooks/` and run cells from top to bottom.
 
 ## Project Structure
@@ -28,6 +56,7 @@ olist-analysis/
 │   └── nltk_comments.ipynb
 ├── reports/                  # final images and BI assets
 ├── requirements.txt
+├── requirements-lock.txt   # optional: exact versions from pip freeze
 └── README.md
 ```
 
